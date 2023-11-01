@@ -11,6 +11,7 @@ module.exports = {
   rules: {
     'react/jsx-uses-react': 'error',
     'react/jsx-uses-vars': 'error',
+    'react/prop-types': 'off',
     'no-unused-vars': 'warn',
   },
   extends: ['eslint:recommended', 'plugin:react/recommended'],
