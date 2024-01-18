@@ -6,7 +6,7 @@ module.exports = {
       jsx: true,
     },
     sourceType: 'module',
-    ecmaVersion: 2020,
+    ecmaVersion: 2021,
   },
   rules: {
     'react/jsx-uses-react': 'error',
@@ -15,7 +15,7 @@ module.exports = {
     'no-unused-vars': 'warn',
     'react/display-name': 'off',
   },
-  extends: ['eslint:recommended', 'plugin:react/recommended'],
+  extends: ['react-app', 'eslint:recommended', 'plugin:react/recommended'],
   settings: {
     react: {
       createClass: 'createReactClass', // Regex for Component Factory to use,
