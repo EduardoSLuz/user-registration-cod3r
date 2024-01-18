@@ -13,6 +13,7 @@ module.exports = {
     'react/jsx-uses-vars': 'error',
     'react/prop-types': 'off',
     'no-unused-vars': 'warn',
+    'react/display-name': 'off',
   },
   extends: ['eslint:recommended', 'plugin:react/recommended'],
   settings: {
